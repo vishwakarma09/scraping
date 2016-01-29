@@ -1,0 +1,95 @@
+*   Trying 204.232.131.37...
+* Connected to www.fangraphs.com (204.232.131.37) port 80 (#0)
+> GET /projections.aspx?pos=all&stats=bat&type=steamer HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Host: www.fangraphs.com
+Accept: */*
+Accept-Encoding: gzip,deflate
+
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: /generalerror.aspx?aspxerrorpath=/projections.aspx
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Tue, 26 Jan 2016 07:02:59 GMT
+< Content-Length: 167
+< 
+* Ignoring the response-body
+* Connection #0 to host www.fangraphs.com left intact
+* Issue another request to this URL: 'http://www.fangraphs.com/generalerror.aspx?aspxerrorpath=/projections.aspx'
+* Found bundle for host www.fangraphs.com: 0x196a138
+* Re-using existing connection! (#0) with host www.fangraphs.com
+* Connected to www.fangraphs.com (204.232.131.37) port 80 (#0)
+> GET /generalerror.aspx?aspxerrorpath=/projections.aspx HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Host: www.fangraphs.com
+Accept: */*
+Accept-Encoding: gzip,deflate
+Referer: http://www.fangraphs.com/projections.aspx?pos=all&stats=bat&type=steamer
+
+< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Tue, 26 Jan 2016 07:03:14 GMT
+< Content-Length: 1763
+< 
+* Connection #0 to host www.fangraphs.com left intact
+
+
+-----------------------------------------------------------
+
+* Hostname www.fangraphs.com was found in DNS cache
+*   Trying 204.232.131.37...
+* Connected to www.fangraphs.com (204.232.131.37) port 80 (#0)
+> POST /projections.aspx?pos=all&stats=bat&type=steamer HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Host: www.fangraphs.com
+Accept: */*
+Accept-Encoding: gzip,deflate
+Content-Length: 9
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 9 out of 9 bytes
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Location: /generalerror.aspx?aspxerrorpath=/projections.aspx
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Tue, 26 Jan 2016 07:03:30 GMT
+< Content-Length: 167
+< 
+* Ignoring the response-body
+* Connection #0 to host www.fangraphs.com left intact
+* Issue another request to this URL: 'http://www.fangraphs.com/generalerror.aspx?aspxerrorpath=/projections.aspx'
+* Switch from POST to GET
+* Found bundle for host www.fangraphs.com: 0x196a060
+* Re-using existing connection! (#0) with host www.fangraphs.com
+* Connected to www.fangraphs.com (204.232.131.37) port 80 (#0)
+> GET /generalerror.aspx?aspxerrorpath=/projections.aspx HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+Host: www.fangraphs.com
+Accept: */*
+Accept-Encoding: gzip,deflate
+Referer: http://www.fangraphs.com/projections.aspx?pos=all&stats=bat&type=steamer
+
+< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/8.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Tue, 26 Jan 2016 07:03:45 GMT
+< Content-Length: 1763
+< 
+* Connection #0 to host www.fangraphs.com left intact
+viewport=
+
+-----------------------------------------------------------
+
